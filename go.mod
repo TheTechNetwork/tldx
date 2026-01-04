@@ -4,8 +4,8 @@ go 1.24.0
 
 require (
 	github.com/charmbracelet/lipgloss v1.1.0
-	github.com/likexian/whois v1.15.6
-	github.com/likexian/whois-parser v1.24.20
+	github.com/likexian/whois v1.15.7
+	github.com/likexian/whois-parser v1.24.21
 	github.com/openrdap/rdap v0.9.1
 	github.com/spf13/cobra v1.10.2
 	github.com/stretchr/testify v1.11.1
@@ -22,7 +22,7 @@ require (
 	github.com/charmbracelet/x/term v0.2.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
-	github.com/likexian/gokit v0.25.15 // indirect
+	github.com/likexian/gokit v0.25.16 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect

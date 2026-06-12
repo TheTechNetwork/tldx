@@ -3,7 +3,7 @@ module github.com/brandonyoungdev/tldx
 go 1.24.0
 
 require (
-	github.com/charmbracelet/lipgloss v1.1.0
+	github.com/charmbracelet/lipgloss/v2 v2.0.4
 	github.com/likexian/whois v1.15.6
 	github.com/likexian/whois-parser v1.24.20
 	github.com/openrdap/rdap v0.9.1

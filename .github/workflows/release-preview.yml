@@ -23,7 +23,7 @@ jobs:
 
       - if: ${{ steps.semantic_release_info.outputs.no_release == 'false' }}
         name: Add comment to the PR
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3.0.5
         with:
           header: ReleasePreview
           recreate: true
@@ -33,7 +33,7 @@ jobs:
 
       - if: ${{ steps.semantic_release_info.outputs.no_release == 'true' }}
         name: Add comment to the PR
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3.0.5
         with:
           header: ReleasePreview
           recreate: true
